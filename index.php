@@ -2,9 +2,15 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>CR7 aposentado</title> 
+  <title>Login</title> 
 </head>
 <body>
-    <?php echo "<h1>Olá, mundo!</h1>" ?>
+  <form method="post" action="login.php">
+    <label>CPF</label> 
+    <input type="text" name="cpf"><br>
+    <label>Senha:</label>
+    <input type="password" name="senha"><br>
+    <input type="submit" value="Entrar">
+  </form>
 </body>
 </html>
