@@ -1,6 +1,6 @@
 <?php 
 $host = "sql310.infinityfree.com"
-$banco = "aluno"
+$banco = "if0_43395360_meu_banco"
 $usuario = "if0_43395360"
 $senha = "F2BLNoOUsN1"
 //comentario 
